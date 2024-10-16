@@ -13,7 +13,7 @@ export default function Home() {
           <span className="block text-5xl sm:text-6xl">Safe Place</span> Le Réseau Social Sain et Sécurisé
         </h1>
         <p className="text-base sm:text-xl max-w-2xl sm:max-w-3xl leading-relaxed">
-          Safe Place vous offre une expérience saine et bienveillante, conçue pour protéger votre santé mentale et limiter les risques d'addiction. Découvrez une plateforme où la transparence et la sécurité sont nos priorités.
+          Safe Place vous offre une expérience saine et bienveillante, conçue pour protéger votre santé mentale et limiter les risques d&apos;addiction. Découvrez une plateforme où la transparence et la sécurité sont nos priorités.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mt-8">
@@ -43,14 +43,14 @@ export default function Home() {
           <div className="bg-primary p-6 sm:p-10 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out transform hover:-translate-y-1">
             <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4">Réduction des Addictions</h3>
             <p className="text-sm sm:text-lg text-white">
-              Notre interface est spécialement conçue pour limiter l'usage excessif et favoriser une utilisation modérée des réseaux sociaux.
+              Notre interface est spécialement conçue pour limiter l&apos;usage excessif et favoriser une utilisation modérée des réseaux sociaux.
             </p>
           </div>
 
           <div className="bg-primary p-6 sm:p-10 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out transform hover:-translate-y-1">
             <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4">Protection de la Vie Privée</h3>
             <p className="text-sm sm:text-lg text-white">
-              Safe Place s'engage à vous offrir une transparence totale sur la gestion et l'utilisation de vos données personnelles.
+              Safe Place s&apos;engage à vous offrir une transparence totale sur la gestion et l&apos;utilisation de vos données personnelles.
             </p>
           </div>
 
@@ -116,25 +116,25 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-12">
           <div className="bg-primary p-6 sm:p-8 rounded-lg shadow-lg">
             <p className="text-lg sm:text-xl italic mb-4">
-              "Safe Place a complètement changé ma façon d'utiliser les réseaux sociaux. Je me sens plus en sécurité et moins stressé par les interactions en ligne."
+              &quot;Safe Place a complètement changé ma façon d&apos;utiliser les réseaux sociaux. Je me sens plus en sécurité et moins stressé par les interactions en ligne.&quot;
             </p>
             <h3 className="text-lg sm:text-xl font-semibold">Marie D.</h3>
           </div>
           <div className="bg-primary p-6 sm:p-8 rounded-lg shadow-lg">
             <p className="text-lg sm:text-xl italic mb-4">
-              "Depuis que j'utilise Safe Place, j'ai retrouvé un équilibre dans ma consommation des réseaux sociaux. J'apprécie vraiment l'attention portée à la santé mentale."
+              &quot;Depuis que j&apos;utilise Safe Place, j&apos;ai retrouvé un équilibre dans ma consommation des réseaux sociaux. J&apos;apprécie vraiment l&apos;attention portée à la santé mentale.&quot;
             </p>
             <h3 className="text-lg sm:text-xl font-semibold">Lucas B.</h3>
           </div>
           <div className="bg-primary p-6 sm:p-8 rounded-lg shadow-lg">
             <p className="text-lg sm:text-xl italic mb-4">
-              "La transparence et la sécurité offertes par Safe Place me rassurent. C'est une plateforme différente des autres, plus respectueuse."
+              &quot;La transparence et la sécurité offertes par Safe Place me rassurent. C&apos;est une plateforme différente des autres, plus respectueuse.&quot;
             </p>
             <h3 className="text-lg sm:text-xl font-semibold">Sophie M.</h3>
           </div>
           <div className="bg-primary p-6 sm:p-8 rounded-lg shadow-lg">
             <p className="text-lg sm:text-xl italic mb-4">
-              "Je recommande Safe Place à tous ceux qui cherchent une expérience en ligne plus saine et bienveillante."
+              &quot;Je recommande Safe Place à tous ceux qui cherchent une expérience en ligne plus saine et bienveillante.&quot;
             </p>
             <h3 className="text-lg sm:text-xl font-semibold">Julien P.</h3>
           </div>
