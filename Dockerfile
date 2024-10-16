@@ -5,13 +5,13 @@ FROM node:18-alpine AS base
 WORKDIR /app
 
 # Copy package.json and package-lock.json (or yarn.lock) from the safeplace directory into the container
-COPY package*.json ./
+COPY safeplace/package*.json ./
 
 # Install dependencies
 RUN npm install
 
 # Copy the rest of the application code from the safeplace directory into the container
-COPY . .
+COPY safeplace/ .
 
 # Build the Next.js application
 RUN npm run build
