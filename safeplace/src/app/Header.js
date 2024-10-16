@@ -3,10 +3,12 @@ import Link from 'next/link';
 
 const Header = () => {
     return (
-        <header className="fixed bg-primary w-full py-5 shadow-md">
+        <header className="fixed z-50 bg-primary w-full py-5 shadow-md">
             <nav className="container mx-auto flex justify-center gap-8 items-center">
-                <h1 className="text-2xl font-bold text-white">Safe Place</h1>
-                <ul className="flex space-x-4 text-white">
+                <Link legacyBehavior href="#top">
+                    <h1 className="text-2xl font-bold text-white cursor-pointer">Safe Place</h1>
+                </Link>
+                <ul className="hidden lg:flex space-x-4 text-white">
                     <li>
                         <Link legacyBehavior href="#features">
                             <a className="hover:underline">Caractéristiques</a>
