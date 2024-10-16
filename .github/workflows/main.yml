@@ -12,25 +12,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: 18
-
-    - name: Install dependencies
-      run: npm install
-      working-directory: safeplace
-
-    - name: Build project
-      run: npm run build
-      working-directory: safeplace
-
-    - name: Upload production artifacts
-      uses: actions/upload-artifact@v3
-      with:
-        name: nextjs-build
-        path: safeplace/.next
         
     - name: Log in to the GitHub Container Registry
       uses: docker/login-action@v3
@@ -46,6 +27,7 @@ jobs:
         file: ./safeplace/Dockerfile
         push: true
         tags: ghcr.io/${{ github.repository }}/safe-place-frontend:latest
+        
   redeploy:
     runs-on: ubuntu-latest
     needs: build
